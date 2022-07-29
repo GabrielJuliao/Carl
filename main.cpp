@@ -6,8 +6,9 @@
 
 std::string chars_to_str(char *chars) {
     std::string str;
+    int len = static_cast<int>(strlen(chars));
 
-    for (int i = 0; i < strlen(chars); i++) {
+    for (int i = 0; i < len; i++) {
         str.push_back(chars[i]);
     }
 
