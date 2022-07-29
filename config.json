@@ -1,0 +1,19 @@
+{
+  "macros": [
+    {
+      "macroName": "hello-cmd",
+      "command": "cmd.exe echo \"Hello from cmd\"",
+      "description": "Echo hello message from cmd"
+    },
+    {
+      "macroName": "hello-ps",
+      "command": "powershell.exe echo \"Hello from powershell\"",
+      "description": "Echo hello message from powershell"
+    },
+    {
+      "macroName": "hello-sh",
+      "command": "bash echo \"Hello from bash\"",
+      "description": "Echo hello message from bash"
+    }
+  ]
+}
